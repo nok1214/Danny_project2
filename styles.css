@@ -1,0 +1,111 @@
+body {
+    max-width: 1700px;
+    margin: auto;
+    background-color: grey;
+    
+}
+h2, h3 {
+    font-family: 'Anton', sans-serif;
+}
+
+.bg-1 {
+    background-color: beige;
+}
+
+.bg-2 {
+    text-align: left;        
+    background-color: rgb(138, 136, 136);
+    border: solid rgb(57, 58, 58) 3px;
+    line-height: 2;
+    padding-left: 20px;
+    padding-right: 20px;    
+}
+
+.bg-3, .bg-4{
+    background-color: rgb(179, 164, 164);
+}
+
+.bg-4 {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+
+.container-fluid {
+    padding: 30px 50px;
+}
+
+.nav {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    font-family: 'Anton', sans-serif;
+    
+}
+
+
+
+.container-fluid > h2 {
+    color: rgb(255, 255, 255);
+    font-size: 28px;
+    letter-spacing: 5px;
+    font-weight: bold;
+}
+
+.navbar-nav li a {
+    letter-spacing: 5px;
+    font-family: 'Anton', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: grey;
+    
+   
+}
+
+.navbar-nav  li a:hover {
+    color: #e40800 !important;
+}
+
+p {
+font-size: 20px;
+font-family: 'Kaushan Script', cursive;
+line-height: 2;
+margin-top: 30px;
+}
+
+.q {
+text-align: right;
+}
+
+.button {
+    border: none;
+    color: white;
+    font-weight: bold;
+    background-color:rgb(57, 58, 58);
+    padding: 10px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    position: relative;       
+}
+
+.responsive-main {
+    width: 100%; 
+    height:auto;
+}
+
+.responsive {
+    width: 100%; 
+    height:auto;
+    float: left;    
+    height: 200px;
+    object-fit: cover;
+}
